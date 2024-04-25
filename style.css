@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+div {
+  width: 100%;
+  max-height: 100%;
+  overflow: scroll;
+}
+table {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+tr {
+  margin: 0;
+  padding: 0;
+}
+th {
+  background-color: white;
+  position:sticky;
+  top: 0;
+}
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  width: 10%;
+  padding: 0px;
+  margin: 0px;
+}
+th:first-child, td:first-child {
+  width: 7%;
+  background-color: transparent;
+}
+td {
+  background-color: green;
+}
+td.booked {
+  background-color: red;
+}

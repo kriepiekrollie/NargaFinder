@@ -83,7 +83,7 @@ function getNargaSchedule(narga, name, week, day) {
 
   const options = {
     headers: {
-      "Origin": "http://benjaminkleyn.co.za",
+      "Origin": "https://benjaminkleyn.co.za",
     },
   };
 

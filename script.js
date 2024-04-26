@@ -84,7 +84,7 @@ function getNargaSchedule(narga, name, week, day) {
   const options = {
     headers: {
       // 'x-cors-api-key': 'temp_812e0dab0836ad6fc74f3866da85e895',
-      "Origin": "https://kriepiekrollie.github.io",
+      "Origin": "http://benjaminkleyn.co.za",
     },
   };
 

@@ -72,7 +72,7 @@ const div = document.getElementsByTagName("div")[0];
 div.appendChild(table);
 
 function getNargaSchedule(narga, name, week, day) {
-  const url = encodeURI("https://84.8.136.28:8080/"
+  const url = encodeURI("http://84.8.136.28:8080/"
     + "https://splus.sun.ac.za:8081/Reporting/individual?"
     + "idtype=name&" 
     + "objectclass=location&"
